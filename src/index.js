@@ -1,3 +1,6 @@
-import './test.css';
+import Tooltip from './ninjr-ui/tooltip';
 
-console.log('index.js file');
+// create a tooltip
+const tooltip = new Tooltip(document.querySelector('.tooltip'));
+
+tooltip.init();
