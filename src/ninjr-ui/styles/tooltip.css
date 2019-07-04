@@ -1,11 +1,11 @@
-.tooltip{
+.tooltip {
   position: relative;
   display: inline-block;
   color: #ff6565;
   border-bottom: 1px dotted #ff6565;
   cursor: help;
 }
-.tip{
+.tip {
   visibility: hidden;
   width: 150px;
   background-color: #ff6565;
@@ -20,11 +20,11 @@
   opacity: 0;
   transition: opacity 0.3s;
 }
-.tip.active{
+.tip.active {
   visibility: visible;
   opacity: 1;
 }
-.tip::after{
+.tip::after {
   content: "";
   position: absolute;
   top: 100%;

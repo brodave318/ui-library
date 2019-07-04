@@ -22,4 +22,4 @@ class Tooltip {
   }
 }
 
-export { Tooltip as default }
+export { Tooltip as default };
